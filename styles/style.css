@@ -1,0 +1,51 @@
+html {
+    background: #2D3F2F;
+    font-family: 'Courier Prime', monospace;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+body {
+    width: 760px;
+    padding: 0px 100px 100px 100px;
+    margin: 20px auto;
+    background: #1A301C;
+}   
+
+.head-container {
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 40px 0px 20px 0px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 48px;
+    padding: 15px 0px 15px 0px;
+    text-shadow: 4px 4px 2px rgb(0, 0, 0);
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.desc-container {
+    text-align: center;
+    padding: 15px 0px 10px 0px;
+}
+
+img {
+    width: 250px;
+    display: block;
+    margin: 0 auto;
+}
+
+#github {
+    color: #00FF19;
+}
+
+#github:hover {
+    color:#ffffff;
+}
+
