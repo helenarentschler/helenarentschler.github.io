@@ -1,2 +1,2 @@
-# portfolio
- my portfolio using html, css and javascript
+# portfolio Helena Rentschler
+ my portfolio using Js, html and css
