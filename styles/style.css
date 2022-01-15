@@ -1,15 +1,14 @@
 html {
-    background: #2D3F2F;
+    background: #383638;
     font-family: 'Courier Prime', monospace;
-    color: #ffffff;
+    color: #2c2737;
     font-size: 15px;
 }
 
 body {
     width: 760px;
-    padding: 0px 100px 100px 100px;
-    margin: 20px auto;
-    background: #1A301C;
+    margin: 0px auto;
+    background: #ffffff;
 }   
 
 .head-container {
@@ -23,11 +22,24 @@ h1 {
     margin: 0;
     font-size: 48px;
     padding: 15px 0px 15px 0px;
-    text-shadow: 4px 4px 2px rgb(0, 0, 0);
+    text-shadow: 4px 4px 2px rgb(191, 191, 191);
 }
 
 h2 {
     font-size: 24px;
+}
+
+.upper-box {
+    margin: auto;
+    padding: 20px 40px;
+    background: #2c2737;
+    color: #ffffff;
+}
+
+#foto {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
 }
 
 .desc-container {
@@ -35,17 +47,19 @@ h2 {
     padding: 15px 0px 10px 0px;
 }
 
-img {
-    width: 250px;
-    display: block;
-    margin: 0 auto;
+.bottom-box {
+    padding: 40px;
 }
 
 #github {
-    color: #00FF19;
+    color: #ad00b3;
 }
 
 #github:hover {
-    color:#ffffff;
+    color:hsl(285, 100%, 73%);
+}
+
+#qr {
+    width: 100px;
 }
 
