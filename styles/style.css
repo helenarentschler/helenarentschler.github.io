@@ -1,7 +1,7 @@
 html {
-    background: #383638;
-    font-family: 'Courier Prime', monospace;
-    color: #2c2737;
+    background: #2c292c;
+    font-family: 'Quicksand', sans-serif;
+    color: #2B2838;
     font-size: 15px;
 }
 
@@ -11,7 +11,7 @@ body {
     background: #ffffff;
 }   
 
-.head-container {
+.header-container {
     line-height: 20px;
     letter-spacing: 2px;
     text-align: center;
@@ -31,26 +31,34 @@ h2 {
 
 .upper-box {
     margin: auto;
-    padding: 20px 40px;
-    background: #2c2737;
+    padding: 20px 60px 20px 60px;
+    background: #2B2838;
     color: #ffffff;
+}
+
+#info-box {
+    display: flex;
 }
 
 #foto {
     width: 200px;
     display: block;
-    margin: 0 auto;
 }
 
 .desc-container {
     text-align: center;
     padding: 15px 0px 10px 0px;
+    margin: auto;
 }
 
 .bottom-box {
+    display: flex;
     padding: 40px;
 }
 
+#first-flex {
+    padding-right: 50px;
+}
 #github {
     color: #ad00b3;
 }
@@ -61,5 +69,9 @@ h2 {
 
 #qr {
     width: 100px;
+}
+
+button {
+    display: block;
 }
 
