@@ -1,13 +1,13 @@
 html {
-    background: #2c292c;
+    background-image: url(/images/back.png);
     font-family: 'Quicksand', sans-serif;
     color: #2B2838;
     font-size: 15px;
 }
 
 body {
-    width: 760px;
-    margin: 0px auto;
+    width: 700px;
+    margin: 0 auto;
     background: #ffffff;
 }   
 
@@ -15,7 +15,7 @@ body {
     line-height: 20px;
     letter-spacing: 2px;
     text-align: center;
-    padding: 40px 0px 20px 0px;
+    padding: 20px 0px 20px 0px;
 }
 
 h1 {
@@ -47,17 +47,16 @@ h2 {
 
 .desc-container {
     text-align: center;
-    padding: 15px 0px 10px 0px;
     margin: auto;
 }
 
 .bottom-box {
     display: flex;
-    padding: 40px;
+    padding: 20px 60px 30px 60px;
 }
 
 #first-flex {
-    padding-right: 50px;
+    padding-right: 40px;
 }
 #github {
     color: #ad00b3;

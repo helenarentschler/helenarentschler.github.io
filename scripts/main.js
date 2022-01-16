@@ -1,4 +1,4 @@
-let myImage = document.querySelector('img');
+let myImage = document.querySelector('#foto');
 
 myImage.onclick = function(){
     let mySrc = myImage.getAttribute('src');
@@ -10,7 +10,7 @@ myImage.onclick = function(){
 }
 
 let myButton = document.querySelector('button');
-let myMessage = document.querySelector('.top-message');
+let myMessage = document.querySelector('#top-message');
 
 function setUserName(){
     let myName = prompt('Escreva o seu nome:');
