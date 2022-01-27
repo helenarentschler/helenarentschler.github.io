@@ -53,6 +53,7 @@ h2 {
 .bottom-box {
     display: flex;
     padding: 20px 60px 30px 60px;
+    font-size: 15px;
 }
 
 #first-flex {
