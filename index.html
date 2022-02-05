@@ -5,80 +5,95 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="Helena Rentschler"> 
-        <meta name="description" content="Portfolio de Helena Rentschler, incluindo sua formação, interesses e habilidades."><!-- appears on google search results-->
-        <meta property="og:image" content="/images/helena.jpeg"> <!-- when posting a link to your site on facebook, an image appears-->
-        <meta property="og:description" content="Portfolio de Helena Rentschler, incluindo sua formação, interesses e habilidades."> <!-- when posting a link to your site on facebook, a description appears-->
+        <meta name="description" content="Portfolio de Helena Rentschler, incluindo seus projetos, sua formação, interesses e habilidades."><!-- appears on google search results-->
+        <meta property="og:image" content="images/helena.jpeg"> <!-- when posting a link to your site on facebook, an image appears-->
+        <meta property="og:description" content="Portfolio de Helena Rentschler, incluindo seus projetos, sua formação, interesses e habilidades."> <!-- when posting a link to your site on facebook, a description appears-->
         <meta name="twitter:card" content="summary"> <!-- when posting a link to your site on twitter a title, description and image appear-->
         <meta name="twitter:site" content="@flickr" >
         <meta name="twitter:title" content="Portfolio de Helena Rentschler: Desenvolvedora Web">
-        <meta name="twitter:description" content="Portfolio de Helena Rentschler, incluindo sua formação, interesses e habilidades.">
-        <meta name="twitter:image" content="/images/helena.jpeg">
-        <title>Portfolio Helena Rentschler</title>
+        <meta name="twitter:description" content="Portfolio de Helena Rentschler, incluindo seus projetos, sua formação, interesses e habilidades.">
+        <meta name="twitter:image" content="images/helena.jpeg">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital@0;1&family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet"> 
         <link rel="stylesheet" href="styles/style.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap">
-        <link rel="icon" type="image/x-icon" href="/images/Rectangle 1.png">
+        <link rel="icon" type="image/x-icon" href="images/icon.svg">
+        <script src="scripts/main.js" defer></script>
+        <title>Portfolio Helena Rentschler</title>
     <body>
-        <header class='header-container'>
-            <p id="top-message"></p>
-            <h1>Helena Rentschler</h1>
-            <h2>Desenvolvedora Front-End</h2>
+        <header id="top">
+            <a href="index.html">
+                <h1>Helena Rentschler</h1>
+                <h2>Desenvolvedora Web</h2>
+            </a>
         </header>
-        <div class="upper-box">
-            <div id="info-box">
-                <img id="foto" src="images/helena.jpeg" alt="Foto de Helena Rentschler com cabelo castanho na altura do ombro e blusa preta, num fundo branco." title="foto de Helena">
-                <div class='desc-container'>
-                    <p>Data de nascimento: 30/09/2002</p>
-                    <p>(42) 988128756 / Fixo: (42) 3087-0987</p>
-                    <p>Ponta Grossa - PR</p>
-                    <p>helenarentschler1@gmail.com</p>
+        <main>
+            <section id="description-container">
+                <h2>SOBRE MIM</h2>
+                <div>
+                    <img id="foto" src="images/helena.jpeg" alt="Selfie de Helena no banco da frente de um carro, usando uma camisa xadrez vermelha e oculos de grau pretos, tem cabelos curtos castanhos.">
+                    <ul>
+                        <li>30/09/2002</li>
+                        <li>(42) 988128756</li>
+                        <li>Ponta Grossa (PR)</li>
+                        <li>helenarentschler1@gmail.com</li>
+                    </ul> 
                 </div>
-            </div>
-            <p> Estou à procura de uma primeira oportunidade de emprego, a fim de adquirir experiência de trabalho para além da minha formação profissional. Sou proativa, organizada e sempre disposta a aprender!</p>
-        </div>
-        <div class='bottom-box'>
-            <div id="first-flex">
-                <h2>Formação</h2>
+                <div>
+                    <p>Olá! Sou estudante do curso de <strong>Sistemas para Internet</strong>, no qual venho aprendendo tecnologias com HTML5, CSS3, JavaScript e React.</p>
+                    <p>O meu objetivo é começar um estágio em desenvolvimento Front-End ou Full Stack, porém, estou aberta a qualquer esperiência agregadora!</p>
+                    <p>Confira minhas redes sociais:</p>
+                    <a class="media-link" href="https://github.com/helenarentschler" target="_blank">
+                        GitHub
+                    </a>
+                    <a class="media-link" href="https://www.instagram.com/helenarentschler/" target="_blank">
+                        Instagram
+                    </a>
+                    <a class="media-link" href="https://www.linkedin.com/in/helena-rentschler-2804b1220/" target="_blank">
+                        LinkedIn
+                    </a>
+                </div>
+            </section>
+            <div id="lists-frame">
+                <section class="list-container">
+                    <h2>HABILIDADES</h2>
                     <ul>
-                        <li>1° ano de Engenharia Civil - Universidade Estadual de Ponta Grossa (UEPG) | 2020</li>
-                        <li>Cursando <strong>Sistemas para Internet</strong> – UniCesumar | 2021 a 2023</li>
-                    </ul>
-                <h2>Interesses</h2>
-                    <ul>
-                        <li>Estágio em desenvolvimento Front-End / Full Stack / mobile</li>
-                        <li>Atendimento - Auxiliar / Operacional</li>
-                        <li>Auxiliar Administrativo</li>
-                    </ul>
-                <h2>Prêmios</h2>
-                    <ul>
-                        <li>3° lugar: Olimpíada Pontagrossense de Matemática 2018</li>
-                        <li>1° lugar: Desafio Nacional Unicesumar 2021 - Algoritmos e Lógica de Programação I</li>
-                    </ul>
-                <h2>Referências</h2>
-                    <ul>
-                        <li>Words Plus Idiomas - (42) 3224-6552 </li>
-                    </ul>
-            </div>  
-            <div id="sec-flex">
-                <h2>Habilidades</h2>
-                    <ul>
-                        <li>Inglês Avançado</li>
+                        <li>Inglês Avançado</li> 
                         <li>Pacote Office Intermediário</li>
                         <li>Google Workspace (G Suite)</li>
                         <li>Photoshop básico</li>
                         <li>Linguagem C</li>
                         <li>Javascript, HTML e CSS</li>
                         <li>Git e GitHub</li>
-                        <li>Noções de matemática,
-                        lógica e estatística</li>
+                        <li>Noções de matemática, lógica e estatística</li>
                         <li>AutoCAD e SketchUp</li>
                     </ul>
-                <h2>Redes</h2>
-                    <p>Github: <a id="github" href="https://github.com/helenarentschler" target="_blank">helenarentschler</a></p>
-                    <img id="qr" src="images/qr.png" alt="qr code para meu perfil no github" title="leia para ir ao meu perfil no github">
-                    <button>user</button>
-            </div>
-        </div>
-        <script src="scripts/main.js"></script>
+                </section>
+                <section id="sec-list" class="list-container">
+                    <h2>FORMAÇÃO</h2>
+                    <ul>
+                        <li>Ensino Médio - Colégio Integração | 2017 - 2019</li>
+                        <li>1° ano de Engenharia Civil - Universidade Estadual de Ponta Grossa (UEPG) | 2020</li>   
+                        <li>Cursando Sistemas para Internet – UniCesumar | 2021 a 2023</li>
+                    </ul>
+                </section>
+            </div>    
+            <section class="projects-container">
+                <h2>PROJETOS</h2> 
+                <iframe src="https://helenarentschler.github.io/quemperguntou/" frameborder="0" sandbox="">
+                </iframe>    
+                <div>
+                    <h3>Site - “Quem perguntou?”</h3>
+                    <p>Acesse <a href="https://helenarentschler.github.io/quemperguntou/" target="_blank">aqui</a></p>
+                    <p>Este site é uma pequena biblioteca que guarda alguns arquivos meus. Você pode navegar por eles pelo menu à direita.</p>
+                    <p>Linguagens utilizadas: HTML, CSS e JavaScript</p>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>Voltar ao <a href="#top">topo</a> da página</p>
+            <p>@Copyright 2022 por Helena Rentschler. Todos direitos reservados.</p> 
+        </footer>
     </body>
 </html>
 
