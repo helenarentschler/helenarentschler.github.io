@@ -5,10 +5,10 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="Helena Rentschler"> 
-        <meta name="description" content="Portfolio de Helena Rentschler, incluindo seus projetos, sua formação, interesses e habilidades."><!-- appears on google search results-->
-        <meta property="og:image" content="images/helena.jpeg"> <!-- when posting a link to your site on facebook, an image appears-->
-        <meta property="og:description" content="Portfolio de Helena Rentschler, incluindo seus projetos, sua formação, interesses e habilidades."> <!-- when posting a link to your site on facebook, a description appears-->
-        <meta name="twitter:card" content="summary"> <!-- when posting a link to your site on twitter a title, description and image appear-->
+        <meta name="description" content="Portfolio de Helena Rentschler, incluindo seus projetos, sua formação, interesses e habilidades.">
+        <meta property="og:image" content="images/helena.jpeg"> 
+        <meta property="og:description" content="Portfolio de Helena Rentschler, incluindo seus projetos, sua formação, interesses e habilidades."> 
+        <meta name="twitter:card" content="summary"> 
         <meta name="twitter:site" content="@flickr" >
         <meta name="twitter:title" content="Portfolio de Helena Rentschler: Desenvolvedora Web">
         <meta name="twitter:description" content="Portfolio de Helena Rentschler, incluindo seus projetos, sua formação, interesses e habilidades.">
@@ -17,83 +17,63 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital@0;1&family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet"> 
         <link rel="stylesheet" href="styles/style.css">
-        <link rel="icon" type="image/x-icon" href="images/icon.svg">
-        <script src="scripts/main.js" defer></script>
         <title>Portfolio Helena Rentschler</title>
     <body>
-        <header id="top">
-            <a href="index.html">
+        <div id="black-container">
+            <header>
                 <h1>Helena Rentschler</h1>
-                <h2>Desenvolvedora Web</h2>
-            </a>
-        </header>
-        <main>
-            <section id="description-container">
-                <h2>SOBRE MIM</h2>
-                <div>
-                    <img id="foto" src="images/helena.jpeg" alt="Selfie de Helena no banco da frente de um carro, usando uma camisa xadrez vermelha e oculos de grau pretos, tem cabelos curtos castanhos.">
-                    <ul>
-                        <li>30/09/2002</li>
-                        <li>(42) 988128756</li>
-                        <li>Ponta Grossa (PR)</li>
-                        <li>helenarentschler1@gmail.com</li>
-                    </ul> 
+                <h2>desenvolvedora web</h2>
+            </header>
+            <section id="intro-box" class="desc-box">
+                <div id="foto">
+                    <img src="images/helena-180.png" alt="Helena Rentschler de camiseta xadrez vermelha">
                 </div>
-                <div>
-                    <p>Olá! Sou estudante do curso de <strong>Sistemas para Internet</strong>, no qual venho aprendendo tecnologias com HTML5, CSS3, JavaScript e React.</p>
-                    <p>O meu objetivo é começar um estágio em desenvolvimento Front-End ou Full Stack, porém, estou aberta a qualquer esperiência agregadora!</p>
-                    <p>Confira minhas redes sociais:</p>
-                    <a class="media-link" href="https://github.com/helenarentschler" target="_blank">
-                        GitHub
-                    </a>
-                    <a class="media-link" href="https://www.instagram.com/helenarentschler/" target="_blank">
-                        Instagram
-                    </a>
-                    <a class="media-link" href="https://www.linkedin.com/in/helena-rentschler-2804b1220/" target="_blank">
-                        LinkedIn
-                    </a>
-                </div>
+                <p id="tags-p">HTML5 | CSS3 | JavaScript</p>
+                <p>Olá! Sou estudante do curso de Sistemas para Internet em Ponta Grossa (PR), e meu objetivo é começar um estágio em desenvolvimento Front-End ou Full Stack.</p>
+                <p>(42) 988128756  - helenarentschler1@gmail.com</p>
             </section>
-            <div id="lists-frame">
-                <section class="list-container">
-                    <h2>HABILIDADES</h2>
-                    <ul>
-                        <li>Inglês Avançado</li> 
-                        <li>Pacote Office Intermediário</li>
-                        <li>Google Workspace (G Suite)</li>
-                        <li>Photoshop básico</li>
-                        <li>Linguagem C</li>
-                        <li>Javascript, HTML e CSS</li>
-                        <li>Git e GitHub</li>
-                        <li>Noções de matemática, lógica e estatística</li>
-                        <li>AutoCAD e SketchUp</li>
-                    </ul>
-                </section>
-                <section id="sec-list" class="list-container">
-                    <h2>FORMAÇÃO</h2>
-                    <ul>
-                        <li>Ensino Médio - Colégio Integração | 2017 - 2019</li>
-                        <li>1° ano de Engenharia Civil - Universidade Estadual de Ponta Grossa (UEPG) | 2020</li>   
-                        <li>Cursando Sistemas para Internet – UniCesumar | 2021 a 2023</li>
-                    </ul>
-                </section>
-            </div>    
-            <section class="projects-container">
-                <h2>PROJETOS</h2> 
-                <iframe src="https://helenarentschler.github.io/quemperguntou/" frameborder="0" sandbox="">
-                </iframe>    
-                <div>
-                    <h3>Site - “Quem perguntou?”</h3>
-                    <p>Acesse <a href="https://helenarentschler.github.io/quemperguntou/" target="_blank">aqui</a></p>
-                    <p>Este site é uma pequena biblioteca que guarda alguns arquivos meus. Você pode navegar por eles pelo menu à direita.</p>
-                    <p>Linguagens utilizadas: HTML, CSS e JavaScript</p>
-                </div>
+            <section class="desc-box">
+                <h3 id="first-h3">SKILLS</h3>
+                <ul>
+                    <li>Inglês avançado</li> 
+                    <li>Git e GitHub</li> 
+                    <li>Photoshop básico</li>   
+                    <li>Javascript, HTML5 e CSS3</li>
+                </ul>
             </section>
-        </main>
-        <footer>
-            <p>Voltar ao <a href="#top">topo</a> da página</p>
-            <p>@Copyright 2022 por Helena Rentschler. Todos direitos reservados.</p> 
-        </footer>
+            <section class="desc-box">
+                <h3>FORMAÇÃO</h3>
+                <ul>
+                    <li>1° ano de Engenharia Civil: Universidade Estadual de Ponta Grossa (UEPG) | 2020</li>
+                    <li>Cursando Sistemas para Internet: UniCesumar | 2021 a 2023</li>
+                </ul>
+            </section>
+        </div>
+        <div id="white-container">
+            <div id="main-container"> 
+                <h1>PROJETOS</h1>
+                <section class="project-container">
+                    <div>
+                        <h2>Site “Quem perguntou?”</h2>
+                        <img class="first-print" src="images/print-home-460.png" alt="imagem da home do site"> 
+                    </div>
+                    <div>
+                        <p>Acesse <a href="https://helenarentschler.github.io/quemperguntou/">aqui</a></p>
+                        <p>Este site é uma pequena biblioteca que guarda alguns arquivos meus. Você pode navegar por eles pelo menu à direita.</p> 
+                        <p>Linguagens: HTML, CSS e JavaScript</p> 
+                    </div>
+                </section>
+                <section id="serv-box" class="desc-box">
+                    <h3>SERVIÇOS</h3>
+                    <p> Atualmente posso oferecer sites simples como Portfólios e páginas dinâmicas. </p>
+                    <p> Cobro pelos meus serviços um valor simbólico a ser combinado, uma vez que ainda estou em processo de aprendizado. </p> 
+                    <p> Se eu achar sua proposta interessante e criativa, posso fazer gratuitamente.</p>
+                </section>
+            </div>
+            <footer>
+                <p>@Copyright 2022 por Helena Rentschler. Todos os direitos reservados.</p>
+            </footer>
+        </div>
     </body>
 </html>
 
