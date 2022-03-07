@@ -64,6 +64,9 @@ footer {
             margin: 15px auto;
         }
 
+        .desc-box:hover, .desc-box:active {
+            border-color: rgb(146, 148, 148); 
+        }
 
         .project-container {
             display: flex;
@@ -79,9 +82,22 @@ footer {
             margin-bottom: 30px;
         }
 
-        .project-container > div {
+        .proj-img {
             flex: 1 300px;
             margin: 0 auto;
+            text-align: center;
+        }
+
+        .proj-info {
+            margin-top: 20px;
+            flex: 1 300px;
+            text-align: center;
+        }
+        
+        @media screen and (max-width: 500px) {
+            .proj-info {
+                margin-top: 0px; 
+            }
         }
 
         .project-container img {
@@ -103,8 +119,14 @@ footer {
             filter: drop-shadow(6px 6px 6px rgba(0, 0, 0, 0.5));
         }
         
+        @keyframes scale {
+            to {
+                transform:scale(1.2, 1.2);
+            }
+        }
+
         .first-print:hover {
-            transform:scale(1.2, 1.2);
+            animation: scale 0.4s forwards;
         }
 
             #foto-container {
@@ -118,6 +140,16 @@ footer {
 
             #links img {
                 margin-top: 5px;
+            }
+
+            @keyframes rotate360 {
+                to {
+                    transform: rotate(360deg)
+                }
+            }
+
+            #links img:hover, #links img:active {
+                animation: rotate360 0.4s;
             }
 
             #tags-p, #adress-p {
@@ -135,9 +167,11 @@ footer {
             }   
 
             #intro-box {
+                transform: translateX(30px);
                 display: block;
                 max-width: 500px;
                 border-color: rgba(133, 224, 229, 1);
+                animation: slideLeft 2s forwards;
             }
 
             @keyframes slideRight {
@@ -160,12 +194,12 @@ footer {
 
             #skills-box {
                 transform: translateX(-30px);
-                animation: slideRight 1s forwards; 
+                animation: slideRight 2s forwards; 
             }
-
+            
             #formac-box {
                 transform: translateX(30px);
-                animation: slideLeft 1s forwards; 
+                animation: slideLeft 2s forwards; 
             }
 
             #formac-box h3 {
@@ -204,7 +238,7 @@ footer {
                 color: rgb(34, 34, 34);
                 position: relative;
                 opacity: 0;
-                animation: fadeIn 1s forwards;
+                animation: fadeIn 2s forwards;
             }
 
             #white-container h1 {
