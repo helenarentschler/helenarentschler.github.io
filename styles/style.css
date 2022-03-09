@@ -43,7 +43,7 @@ footer {
 }
 
     h1 {
-        color: rgba(161, 202, 98, 1);
+        color: rgba(126, 237, 89, 1);
         margin: 0;
     }
 
@@ -65,7 +65,7 @@ footer {
         }
 
         .desc-box:hover, .desc-box:active {
-            filter: drop-shadow(0px 0px 8px rgba(255, 255, 255, 0.4));
+            filter: drop-shadow(0px 0px 8px rgba(255, 255, 255, 0.5));
         }
 
         .project-container {
@@ -145,7 +145,7 @@ footer {
             }
 
             #links img {
-                margin-top: 5px;
+                margin-top: 4px;
             }
 
             @keyframes rotate360 {
@@ -176,7 +176,7 @@ footer {
                 transform: translateX(30px);
                 display: block;
                 max-width: 500px;
-                border: 4px solid rgba(126, 237, 89, 1);
+                border-color: rgba(126, 237, 89, 1);
                 animation: slideLeft 2s forwards;
             }
 
@@ -257,6 +257,7 @@ footer {
             }
 
             #white-container h1 {
+                color: rgba(161, 202, 98, 1);
                 font-size: 1.8rem;
                 margin-top: 70px;
                 margin-bottom: 80px;
@@ -269,10 +270,11 @@ footer {
             }
 
             #serv-box {
+                border-color: rgba(118, 148, 72, 1);
                 display: block;
-                max-width: 500px;
+                max-width: 300px;
                 margin-inline: auto;
-                margin-bottom: 100px;
+                margin-bottom: 120px;
             }
   
             @keyframes scale2 {
