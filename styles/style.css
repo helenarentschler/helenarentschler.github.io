@@ -35,7 +35,7 @@ header {
 footer {
     padding: 10px;
     text-align: center;
-    background-color: rgba(133, 224, 229, 1);
+    background-color: rgba(126, 237, 89, 1);
     position: absolute;
     bottom: 0;
     right: 0;
@@ -43,7 +43,7 @@ footer {
 }
 
     h1 {
-        color: rgba(0, 178, 189, 1);
+        color: rgba(126, 237, 89, 1);
         margin: 0;
     }
 
@@ -58,14 +58,14 @@ footer {
             align-items: center;
             min-width: 250px;
             max-width: 400px;
-            padding: 20px;
-            border: 3px solid rgba(0, 178, 189, 1);
-            border-radius: 20px;
+            padding: 25px;
+            border: 3px solid rgba(161, 202, 98, 1);
+            border-radius: 55px;
             margin: 15px auto;
         }
 
         .desc-box:hover, .desc-box:active {
-            border-color: rgb(146, 148, 148); 
+            filter: drop-shadow(0px 0px 8px rgba(255, 255, 255, 0.4));
         }
 
         .project-container {
@@ -107,7 +107,7 @@ footer {
 
         .project-container a {
             text-decoration: 0;
-            color: rgba(0, 178, 189, 1);
+            color: rgba(118, 148, 72, 1);
             border-bottom: 1px solid;
         }
 
@@ -116,7 +116,8 @@ footer {
         }
 
         .first-print {
-            filter: drop-shadow(6px 6px 6px rgba(0, 0, 0, 0.5));
+            border-radius: 55px;
+            filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.4));
         }
         
         @keyframes scale {
@@ -136,6 +137,11 @@ footer {
                 max-width: 230px;
                 margin-top: -160px;
                 margin-inline: auto;
+            }
+
+            #foto-container > img {
+                border-radius: 55px;
+                filter: drop-shadow(4px 4px 6px rgba(0, 0, 0, 0.4));
             }
 
             #links img {
@@ -161,7 +167,7 @@ footer {
             #black-container {
                 flex: 1 300px;
                 padding: 30px;
-                background-color: rgb(34, 34, 34);
+                background: no-repeat center url(../images/abacates-background.png) rgb(34, 36, 33);
                 box-shadow: 12px 0px 27px rgba(0, 0, 0, 0.3);
                 z-index: 1;
             }   
@@ -170,7 +176,7 @@ footer {
                 transform: translateX(30px);
                 display: block;
                 max-width: 500px;
-                border-color: rgba(133, 224, 229, 1);
+                border: 4px solid rgba(126, 237, 89, 1);
                 animation: slideLeft 2s forwards;
             }
 
@@ -208,19 +214,20 @@ footer {
 
             #black-container h2 {
                 font-size: 1.6rem;
-                color: rgba(133, 224, 229, 1);
+                color: rgba(161, 202, 98, 1);
                 margin: 0;
             }
 
             #black-container h3 {
+                font-size: 0.9rem;
                 writing-mode: vertical-lr;
-                color: rgb(34, 34, 34);
+                color: rgb(34, 36, 33);
                 background-color: rgb(219, 219, 219);
                 inline-size: 120px;
                 text-align: center;
                 padding-block: 5px;
                 margin-block: 20px;
-                border-radius: 6px;
+                border-radius: 55px;
             }
                         
             @keyframes fadeIn {
@@ -235,22 +242,12 @@ footer {
 
             #white-container {
                 flex: 2 300px;
-                color: rgb(34, 34, 34);
+                color: rgb(34, 36, 33);
                 position: relative;
                 opacity: 0;
                 animation: fadeIn 2s forwards;
-            }
-
-            #white-container h1 {
-                font-size: 1.8rem;
-                margin-top: 30px;
-                margin-bottom: 40px;
-                text-align: center;
-                letter-spacing: 0.8rem;
-            }
-
-            #main-container {
-                padding: 30px;
+                background: url(../images/aba.png) no-repeat right 30px/20%,
+                            url(../images/cate.png) no-repeat left 30px/20%;
             }
 
             @media screen and (max-width: 500px) {
@@ -259,11 +256,33 @@ footer {
                 }
             }
 
+            #white-container h1 {
+                font-size: 1.8rem;
+                margin-top: 70px;
+                margin-bottom: 80px;
+                text-align: center;
+                letter-spacing: 0.8rem;
+            }
+
+            #main-container {
+                padding: 30px;
+            }
+
             #serv-box {
                 display: block;
                 max-width: 500px;
                 margin-inline: auto;
                 margin-bottom: 100px;
+            }
+  
+            @keyframes scale2 {
+                to {
+                    transform:scale(1.1, 1.1);
+                }
+            }
+
+            #serv-box:hover {
+                animation: scale2 0.4s forwards;
             }
 
             #serv-box  h3 {
