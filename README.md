@@ -1,2 +1,2 @@
 # portfolio Helena Rentschler
- 🥑 my portfolio using Js, html and css 🥑
+ 🥑 meu portfólio usando Js, html and css 🥑
