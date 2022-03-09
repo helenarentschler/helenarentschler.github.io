@@ -17,6 +17,7 @@ body > * {
 }
 
 body {
+    cursor: url(../images/cursor-auto.png), auto;
     display: flex;
     flex-wrap: wrap;
     max-inline-size: 1400px;
@@ -116,7 +117,7 @@ footer {
         }
 
         .first-print {
-            border-radius: 55px;
+            border-radius: 30px;
             filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.4));
         }
         
