@@ -20,7 +20,6 @@ body {
     cursor: url(../images/cursor-auto.png), auto;
     display: flex;
     flex-wrap: wrap;
-    max-inline-size: 1400px;
     min-block-size: 100vh;
     margin: 0 auto;
     background: rgb(255, 255, 255);
@@ -53,6 +52,10 @@ footer {
         margin: 0;
         padding: 0;
         line-height: inherit;
+    }
+
+    li {
+        margin-bottom: 10px;
     }
 
         .desc-box {
