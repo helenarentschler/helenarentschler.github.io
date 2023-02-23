@@ -1,6 +1,6 @@
 html {
     font: normal 16px 'Quicksand', sans-serif;
-    line-height: 2;
+    line-height: 1.5;
     margin: 0;
     color: rgb(255, 255, 255);
     background-color: rgb(133, 133, 133);
@@ -124,16 +124,12 @@ footer {
         .first-print {
             border-radius: 30px;
             filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.4));
+            transition: transform 1s;
         }
         
-        @keyframes scale {
-            to {
-                transform:scale(1.2, 1.2);
-            }
-        }
-
+        
         .first-print:hover {
-            animation: scale 0.4s forwards;
+            transform: scale(1.15);
         }
 
             #foto-container {
@@ -168,6 +164,10 @@ footer {
                 margin-top: 20px;
                 text-align: center;
                 line-height: 1;
+            }
+
+            #adress-p a {
+                color: #fff;
             }
 
             #black-container {
@@ -281,16 +281,12 @@ footer {
                 max-width: 300px;
                 margin-inline: auto;
                 margin-bottom: 120px;
-            }
-  
-            @keyframes scale2 {
-                to {
-                    transform:scale(1.1, 1.1);
-                }
+                transition: transform 1s;
             }
 
+
             #serv-box:hover {
-                animation: scale2 0.4s forwards;
+                transform: scale(1.15);
             }
 
             #serv-box  h3 {
